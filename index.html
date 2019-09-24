@@ -1,0 +1,797 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Title -->
+    <title>ValleyHacks</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="./img/core-img/favicon.png">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js" integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ" crossorigin="anonymous"></script>
+
+</head>
+<style>
+    p {
+        margin:20px;
+    }
+    .tab {
+        align: center;
+        overflow: hidden;
+        background-color: rgb(21,24,83);
+        font-color: white;
+        height: 88px;
+        border-radius: 10px;
+        width: 300px;
+        border-color: gray;
+        padding: 2px;
+    }
+
+        /* Style the buttons inside the tab */
+        .tab button {
+            background-color: inherit;
+            float: center;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 14px 16px;
+            font-size: 17px;
+            font-family: "Poppins", sans-serif;
+            color: white;
+        }
+
+            /* Change background color of buttons on hover */
+
+
+            /* Create an active/current tablink class */
+
+
+    /* Style the tab content */
+    .tabcontent {
+        display: none;
+        padding: 6px 12px;
+        border-top: none;
+    }
+
+    #main {
+        width: 750px;
+        height: 75px;
+        border-radius: 10px;
+        border: 1px solid;
+        display: flex;
+        align-items: center;
+        padding: 11px;
+        font-family: "Poppins", sans-serif;
+        background-color: rgb(21,24,83);
+        color: white;
+        border-color: rgb(223,66,177);
+    }
+
+        #main div {
+            flex: 1;
+            flex: 1;
+        }
+
+        #main div2 {
+            margin: 10px;
+        }
+
+        #main div3 {
+            margin-right: 200px;
+            padding: 10px;
+            font-size: 12px;
+            text-align: left;
+        }
+    div4 {
+        background-color: rgb(21,24,83);
+    }
+    </style>
+
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="loader"></div>
+    </div>
+    <!-- /Preloader -->
+    <!-- Header Area Start -->
+    <header class="header-area">
+        <div class="classy-nav-container breakpoint-off">
+            <div class="container">
+                <!-- Classy Menu -->
+                <nav class="classy-navbar justify-content-between" id="conferNav">
+                    <style>
+                    img.logoclass{
+                      height:199px;
+                      width:358px;
+                    }
+                    </style>
+                    <!-- Logo -->
+                    <br><br><br>
+                    <a class="nav-brand" href="./index.html"><img src="./img/core-img/logo2.png" class="logoclass" alt=""></a>
+
+                    <!-- Navbar Toggler -->
+                    <div class="classy-navbar-toggler">
+                        <span class="navbarToggler"><span></span><span></span><span></span></span>
+                    </div>
+
+                    <!-- Menu -->
+                    <div class="classy-menu">
+                        <!-- Menu Close Button -->
+                        <div class="classycloseIcon">
+                            <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                        </div>
+                        <!-- Nav Start -->
+                        <div class="classynav">
+                            <ul id="nav">
+                                <li class="active"><a href="#home">Home</a></li>
+                                <li><a href="#about">About</a></li>
+                                <li><a href="#faq">faq</a></li>
+                                <li><a href="#schedule">schedule</a></li>
+                                <li><a href="#sponsors">sponsors</a></li>
+                            </ul>
+
+                            <!-- Get Tickets Button -->
+                            <a href="#ticket" class="btn confer-btn mt-3 mt-lg-0 ml-3 ml-lg-5">Sign up<i class="zmdi zmdi-long-arrow-right"></i></a>
+                        </div>
+                        <!-- Nav End -->
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- Header Area End -->
+    <!-- Welcome Area Start -->
+    <section class="welcome-area">
+        <!--   <div class="welcome-slides owl-carousel">-->
+        <!-- Single Slide -->
+        <div id="home" class="single-welcome-slide bg-img bg-overlay jarallax" style="background-image: url(img/bg-img/1.jpg);">
+            <div class="container h-100">
+                <div class="row h-100 align-items-center">
+                    <!-- Welcome Text -->
+                    <div class="col-12">
+                        <div class="welcome-text text-right">
+                            <h2 data-animation="fadeInUp" data-delay="300ms">Valley <br>Hacks</h2>
+                            <h6 data-animation="fadeInUp" data-delay="500ms">The Silicon Valley Nontraditional Hackathon</h6>
+                            <div class="hero-btn-group" data-animation="fadeInUp" data-delay="700ms">
+                                <a href="#" class="btn confer-btn" style="margin:0px">Attend<i class="zmdi zmdi-long-arrow-right"></i></a><br /><br />
+                                <a href="#" class="btn confer-btn" style="margin:0px">Mentor<i class="zmdi zmdi-long-arrow-right"></i></a><br /><br />
+                                <a href="#" class="btn confer-btn" style="margin:0px">Sponsor<i class="zmdi zmdi-long-arrow-right"></i></a><br /><br />
+
+                            </div>
+                        </div>
+                        <!--       </div>-->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Single Slide -->
+        </div>
+
+        <!-- Scroll Icon -->
+        <div class="icon-scroll" id="scrollDown"></div>
+    </section>
+    <!-- Welcome Area End -->
+    <!-- About Us And Countdown Area Start -->
+    <section id="about" class="about-us-countdown-area section-padding-100-0" id="about">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- About Content -->
+                <div class="col-12 col-md-6">
+                    <div class="about-content-text mb-80">
+                        <h6 class="wow fadeInUp" data-wow-delay="300ms">About Valley Hacks</h6>
+                        <h3 class="wow fadeInUp" data-wow-delay="300ms">Welcome to Valley Hacks</h3>
+                        <p class="wow fadeInUp" data-wow-delay="300ms">At ValleyHacks, we strive to bring together developers to participate in the hackathon irrespective of gender, race, sexual orientation, socioeconomic background or ethnicity. We usually try to keep things simple. Read our FAQs to phase out ambiguity.</p>
+                        <a href="#ticket" class="btn confer-btn mt-50 wow fadeInUp" data-wow-delay="300ms">sign up<i class="zmdi zmdi-long-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- About Thumb -->
+                <div class="col-12 col-md-6">
+                    <div class="about-thumb mb-80 wow fadeInUp" data-wow-delay="300ms">
+                        <img src="img/bg-img/2.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Counter Up Area -->
+        <div class="countdown-up-area">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-12 col-md-3">
+                        <!-- Countdown Text -->
+                        <div class="countdown-content-text mb-100 wow fadeInUp" data-wow-delay="300ms">
+                            <h6>Hackathon Date</h6>
+                            <h4>Countdown</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-9">
+                        <div class="countdown-timer mb-100 wow fadeInUp" data-wow-delay="300ms">
+                            <div id="clock"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Us And Countdown Area End -->
+    <!-- FAQs -->
+    <section id="faq" class="our-blog-area bg-img bg-gradient-overlay section-padding-100-60" style="background-image: url(img/bg-img/17.jpg);">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-10 mx-auto text-center">
+                    <h1 style="color:#151853;font-size:80px">FAQs</h1>
+                    <!--<img class="img-fluid" src="img/title-faq.png" alt="FAQ.">-->
+                </div>
+            </div>
+            <div class="row mt-5" id="accordion">
+                <div class="col-lg-6 col-12">
+                    <div class="card my-3">
+                        <div class="card-header btn collapsed" id="faqOne" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Who can participate?</div>
+                        <div id="collapseOne" class="collapse" aria-labelledby="faqOne" data-parent="#accordion">
+                            <div class="card-body pt-2">Everyone is welcome to apply, be it students, professionals or turing-test certified androids. If you are under 18 years of age, we’ll need a parental consent form.</div>
+                        </div>
+                    </div>
+                    <!--<div class="card my-3">
+                    <div class="card-header btn collapsed" id="faqThree" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">Can we apply as a team?</div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="faqThree" data-parent="#accordion">
+                        <div class="card-body pt-2">Yes! This hackathon is strictly a team competition. We believe that you’re stronger as a team than you are apart. You can join or create a team once you've started an individual application.</div>
+                    </div>
+                </div>-->
+                    <div class="card my-3">
+                        <div class="card-header btn collapsed" id="faqFour" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">What if I don’t have a team or an idea?</div>
+                        <div id="collapseFour" class="collapse" aria-labelledby="faqFour" data-parent="#accordion">
+                            <div class="card-body pt-2">Not to worry, most people don’t! We’ll have team formation and ideation events geared towards helping you find people to work with. You can join our <a href="https://www.facebook.com/groups/ValleyHacks/" target="_blank" rel="noreferrer">Facebook Group</a> to find potential teammates.</div>
+                        </div>
+                    </div>
+                    <div class="card my-3">
+                        <div class="card-header btn collapsed" id="faqFive" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">What shouldn’t I bring?</div>
+                        <div id="collapseFive" class="collapse" aria-labelledby="faqFive" data-parent="#accordion">
+                            <div class="card-body pt-2">Weapons of any kind, drugs, or alcohol. If you’re not sure whether something will be okay, please ask ahead of time!</div>
+                        </div>
+                    </div>
+                    <div class="card my-3">
+                        <div class="card-header btn collapsed" id="faqSix" data-toggle="collapse" data-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">What about hardware?</div>
+                        <div id="collapseSix" class="collapse" aria-labelledby="faqSix" data-parent="#accordion">
+                            <div class="card-body pt-2">If you have specific hardware in mind, bring it with you. We will be doing our best to lend hardware at the event and enable you to work on your dream hack. We’ll put out a list closer to the event so you can see what’s available.</div>
+                        </div>
+                    </div>
+                    <div class="card my-3">
+                        <div class="card-header btn collapsed" id="faqSeven" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven">I don’t want to hack, can I still get involved?</div>
+                        <div id="collapseSeven" class="collapse" aria-labelledby="faqSeven" data-parent="#accordion">
+                            <div class="card-body pt-2">If you're looking to be a volunteer or mentor (i.e. someone with technical skills who'd be willing to help out participants during the weekend), signup as a mentor below! If your company is interested in becoming a sponsor, reach out to us by signing up as a sponsor below.</div>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12">
+                    <div class="card my-3">
+                        <div class="card-header btn collapsed" id="faqEight" data-toggle="collapse" data-target="#collapseEight"
+                             aria-expanded="true" aria-controls="collapseEight">
+                            When will applications close?
+                        </div>
+
+                        <div id="collapseEight" class="collapse" aria-labelledby="faqEight" data-parent="#accordion">
+                            <div class="card-body pt-2">
+                                The application portal will be closed on March 4th at 11:59pm. We evaluate applications on a
+                                rolling basis and acceptances
+                                will be sent every weekend via email. The sooner you apply, the better chances you have of acceptance.
+                                Once
+                                accepted, you’ll have receive a form to confirm your attendance closer to the date of ValleyHacks.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card my-3">
+                        <div class="card-header btn collapsed" id="faqNine" data-toggle="collapse" data-target="#collapseNine" aria-expanded="true" aria-controls="collapseNine">How much does it cost?</div>
+                        <div id="collapseNine" class="collapse" aria-labelledby="faqNine" data-parent="#accordion">
+                            <div class="card-body pt-2">Zero. Zip. Zilch. Nada. Nothing. Admission to ValleyHacks is completely free, thanks to our sponsors! We'll provide you with a weekend's worth of swag, meals, drinks, snacks and a place to crash when you need a break from coding.</div>
+                        </div>
+                    </div>
+                    <div class="card my-3">
+                        <div class="card-header btn collapsed" id="faqTen" data-toggle="collapse" data-target="#collapseTen" aria-expanded="true" aria-controls="collapseTen">How big can a team be?</div>
+                        <div id="collapseTen" class="collapse" aria-labelledby="faqTen" data-parent="#accordion">
+                            <div class="card-body pt-2">You can form teams of up to 4 people. Most teams aim to have a mix of people with both design and developer skills.</div>
+                        </div>
+                    </div>
+                    <div class="card my-3">
+                        <div class="card-header btn collapsed" id="faqEleven" data-toggle="collapse" data-target="#collapseEleven" aria-expanded="true" aria-controls="collapseEleven">Once I am accepted, what do I need to bring?</div>
+                        <div id="collapseEleven" class="collapse" aria-labelledby="faqEleven" data-parent="#accordion">
+                            <div class="card-body pt-2">A valid government issued photo ID, laptop, phone, chargers, any sleeping equipment you might want and a geeky t-shirt!</div>
+                        </div>
+                    </div>
+                    <!--<div class="card my-3">
+                    <div class="card-header btn collapsed" id="faqTwelve" data-toggle="collapse" data-target="#collapseTwelve" aria-expanded="true" aria-controls="collapseTwelve">Do you provide travel reimbursements?</div>
+                    <div id="collapseTwelve" class="collapse" aria-labelledby="faqTwelve" data-parent="#accordion">
+                        <div class="card-body pt-2">Yes! Once accepted, you will have to submit your travel reimbursement forms and receipts on the dashboard. For each location hackers travel from, we’ll determine a reasonable cap. We will reimburse travel costs up to this cap only.</div>
+                    </div>
+                </div>-->
+                    <div class="card my-3">
+                        <div class="card-header btn collapsed" id="faqThirteen" data-toggle="collapse" data-target="#collapseThirteen" aria-expanded="true" aria-controls="collapseThirteen">What do I get by attending ValleyHacks?</div>
+                        <div id="collapseThirteen" class="collapse" aria-labelledby="faqThirteen" data-parent="#accordion">
+                            <div class="card-body pt-2">Pretty much everything from socializing with the fellow hacker community to internship/job offers from the coolest tech companies. And of course there is the prizes we’ll have for finalist teams, as well as category-specifc prizes, revealed closer to the date of the hackathon. Most of all, you will gain an unparalleled learning experience and memories for a lifetime!</div>
+                        </div>
+                    </div>
+                    <!--<div class="card my-3">
+                    <div class="card-header btn collapsed" id="faqFourteen" data-toggle="collapse" data-target="#collapseFourteen" aria-expanded="true" aria-controls="collapseFourteen">How does judging work?</div>
+                    <div id="collapseFourteen" class="collapse" aria-labelledby="faqFourteen" data-parent="#accordion">
+                        <div class="card-body pt-2">A panel of judges will evaluate hacks based on creativity, technical difficulty, design, and usefulness. The top 5 overall projects will demo what they have built in front of all of ValleyHacks during our closing ceremonies.</div>
+                    </div>
+                </div>-->
+                    <br><br>
+                </div>
+            </div>
+        </div>
+
+        <!-- Our Schedule Area Start -->
+        <section id="schedule" class="our-sponsor-client-area section-padding-100-0">
+            <div4>
+                <center>
+                    <container>
+
+                        <div class="section-heading-2 text-center wow fadeInUp" data-wow-delay="300ms">
+                            <p>Subject to change</p>
+                            <h4>Schedule</h4>
+                        </div>
+
+
+                        <div class="tab">
+                            <button class="tablinks" onclick="openCity(event, 'Sat')">
+                                Saturday<br />
+                                <br />
+                                Mar 14, 2020
+                            </button>
+                            <button class="tablinks" onclick="openCity(event, 'Sun')">
+                                Sunday <br />
+                                <br />
+                                Mar 15, 2020
+                            </button>
+                        </div>
+
+                        <br />
+                        <br />
+                        <div id="Sat" class="tabcontent">
+                            <div id="main" class="w3-container">
+                                <div2><i class="fas fa-user" style="font-size:40px;color:white"></i> </div2>
+                                <div><b style="font-size:20px;align:left">Check in</b></div>
+                                <div3>
+                                    <i class="far fa-clock" style="font-size:16px;color:rgb(223,66,177)"></i><b> 0830</b>
+                                    <br /><br />
+                                    <i class="fas fa-compass" style="font-size:16px;color:rgb(223,66,177)"></i><b> Not Confirmed
+                                </div3>
+                            </div>
+                            <br />
+                            <div id="main">
+                                <div2><i class="fas fa-coffee" style="font-size:40px;color:white"></i> </div2>
+                                <div><b style="font-size:20px">Breakfast</b></div>
+                                <div3>
+                                    <i class="far fa-clock" style="font-size:16px;color:rgb(223,66,177)"></i><b> 0900</b>
+                                    <br /><br />
+                                    <i class="fas fa-compass" style="font-size:16px;color:rgb(223,66,177)"></i><b> Not Confirmed</b>
+                                </div3>
+                            </div>
+                            <br />
+                            <div id="main">
+                                <div2><i class="fas fa-folder-open" style="font-size:40px;color:white"></i> </div2>
+                                <div><b style="font-size:20px">Opening Ceremony</b></div>
+                                <div3>
+                                    <i class="far fa-clock" style="font-size:16px;color:rgb(223,66,177)"></i><b> 1000</b>
+                                    <br /><br />
+                                    <i class="fas fa-compass" style="font-size:16px;color:rgb(223,66,177)"></i><b> Not Confirmed</b>
+                                </div3>
+                            </div>
+                            <br />
+                            <div id="main">
+                                <div2><i class="fas fa-folder" style="font-size:40px;color:white"></i> </div2>
+                                <div><b style="font-size:20px">Ceremony End/Hacking Starts</b></div>
+                                <div3>
+                                    <i class="far fa-clock" style="font-size:16px;color:rgb(223,66,177)"></i><b> 1000</b>
+                                    <br /><br />
+                                    <i class="fas fa-compass" style="font-size:16px;color:rgb(223,66,177)"></i><b> Not Confirmed</b>
+                                </div3>
+                            </div>
+                            <br />
+                            <div id="main">
+                                <div2><i class="fas fa-users" style="font-size:40px;color:white"></i> </div2>
+                                <div><b style="font-size:20px;align:left;">Team Formation Workshop</b></div>
+                                <div3>
+                                    <i class="far fa-clock" style="font-size:16px;color:rgb(223,66,177)"></i><b> 1100</b>
+                                    <br /><br />
+                                    <i class="fas fa-compass" style="font-size:16px;color:rgb(223,66,177)"></i><b> Not Confirmed</b>
+                                </div3>
+                            </div>
+                            <br />
+                            <div id="main">
+                                <div2><i class="fas fa-tools" style="font-size:40px;color:white"></i> </div2>
+                                <div><b style="font-size:20px">Workshop</b></div>
+                                <div3>
+                                    <i class="far fa-clock" style="font-size:16px;color:rgb(223,66,177)"></i><b> 1230</b>
+                                    <br /><br />
+                                    <i class="fas fa-compass" style="font-size:16px;color:rgb(223,66,177)"></i><b> Not Confirmed</b>
+                                </div3>
+                            </div>
+                            <br />
+                            <div id="main">
+                                <div2><i class="fas fa-utensils" style="font-size:40px;color:white"></i> </div2>
+                                <div><b style="font-size:20px">Lunch</b></div>
+                                <div3>
+                                    <i class="far fa-clock" style="font-size:16px;color:rgb(223,66,177)"></i><b> 1300</b>
+                                    <br /><br />
+                                    <i class="fas fa-compass" style="font-size:16px;color:rgb(223,66,177)"></i><b> Not Confirmed</b>
+                                </div3>
+                            </div>
+                            <br />
+                            <div id="main">
+                                <div2><i class="fas fa-microphone" style="font-size:40px;color:white"></i> </div2>
+                                <div><b style="font-size:20px">First Talk</b></div>
+                                <div3>
+                                    <i class="far fa-clock" style="font-size:16px;color:rgb(223,66,177)"></i><b> 1400</b>
+                                    <br /><br />
+                                    <i class="fas fa-compass" style="font-size:16px;color:rgb(223,66,177)"></i><b> Not Confirmed</b>
+                                </div3>
+                            </div>
+                            <br />
+                            <div id="main">
+                                <div2><i class="fas fa-calendar" style="font-size:40px;color:white"></i> </div2>
+                                <div><b style="font-size:20px">Event</b></div>
+                                <div3>
+                                    <i class="far fa-clock" style="font-size:16px;color:rgb(223,66,177)"></i><b> 1630</b>
+                                    <br /><br />
+                                    <i class="fas fa-compass" style="font-size:16px;color:rgb(223,66,177)"></i><b> Not Confirmed</b>
+                                </div3>
+                            </div>
+                            <br />
+                            <div id="main">
+                                <div2><i class="fas fa-tools" style="font-size:40px;color:white"></i> </div2>
+                                <div><b style="font-size:20px">Workshop</b></div>
+                                <div3>
+                                    <i class="far fa-clock" style="font-size:16px;color:rgb(223,66,177)"></i><b> 1800</b>
+                                    <br /><br />
+                                    <i class="fas fa-compass" style="font-size:16px;color:rgb(223,66,177)"></i><b> Not Confirmed</b>
+                                </div3>
+                            </div>
+                            <br />
+                            <div id="main">
+                                <div2><i class="fas fa-utensils" style="font-size:40px;color:white"></i> </div2>
+                                <div><b style="font-size:20px">Dinner</b></div>
+                                <div3>
+                                    <i class="fas fa-clock" style="font-size:16px;color:rgb(223,66,177)"></i><b> 1900</b>
+                                    <br /><br />
+                                    <i class="fas fa-compass" style="font-size:16px;color:rgb(223,66,177)"></i><b> Not Confirmed</b>
+                                </div3>
+                            </div>
+                            <br />
+                            <div id="main">
+                                <div2><i class="fas fa-calendar" style="font-size:40px;color:white"></i> </div2>
+                                <div><b style="font-size:20px">Event</b></div>
+                                <div3>
+                                    <i class="far fa-clock" style="font-size:16px;color:rgb(223,66,177)"></i><b> 2030</b>
+                                    <br /><br />
+                                    <i class="fas fa-compass" style="font-size:16px;color:rgb(223,66,177)"></i><b> Not Confirmed</b>
+                                </div3>
+                            </div>
+                            <br />
+                            <div id="main">
+                                <div2><i class="fas fa-gamepad" style="font-size:40px;color:white"></i> </div2>
+                                <div><b style="font-size:20px">Smash Tournament</b></div>
+                                <div3>
+                                    <i class="far fa-clock" style="font-size:16px;color:rgb(223,66,177)"></i><b> 2200</b>
+                                    <br /><br />
+                                    <i class="fas fa-compass" style="font-size:16px;color:rgb(223,66,177)"></i><b> Not Confirmed</b>
+                                </div3>
+                            </div>
+                            <br />
+                            <div id="main">
+                                <div2><i class="fas fa-film" style="font-size:40px;color:white"></i> </div2>
+                                <div><b style="font-size:20px">Midnight Surprise + Movie</b></div>
+                                <div3>
+                                    <i class="far fa-clock" style="font-size:16px;color:rgb(223,66,177)"></i><b> 2400</b>
+                                    <br /><br />
+                                    <i class="fas fa-compass" style="font-size:16px;color:rgb(223,66,177)"></i><b> Not Confirmed</b>
+                                </div3>
+                            </div>
+                            <br />
+
+                        </div>
+                        <div id="Sun" class="tabcontent">
+                            <div id="main">
+                                <div2><i class="fas fa-archive" style="font-size:40px;color:white"></i> </div2>
+                                <div><b style="font-size:20px">Devpost Submission Due</b></div>
+                                <div3>
+                                    <i class="far fa-clock" style="font-size:16px;color:rgb(223,66,177)"></i><b> 1100</b>
+                                    <br /><br />
+                                    <i class="fas fa-compass" style="font-size:16px;color:rgb(223,66,177)"></i><b> Not Confirmed</b>
+                                </div3>
+                            </div>
+                            <br />
+                            <div id="main">
+                                <div2><i class="fab fa-hackerrank" style="font-size:40px;color:white"></i> </div2>
+                                <div><b style="font-size:20px">Hacks Expo</b></div>
+                                <div3>
+                                    <i class="far fa-clock" style="font-size:16px;color:rgb(223,66,177)"></i><b> 1200</b>
+                                    <br /><br />
+                                    <i class="fas fa-compass" style="font-size:16px;color:rgb(223,66,177)"></i><b> Not Confirmed</b>
+                                </div3>
+                            </div>
+                            <br />     <div id="main">
+                                <div2><i class="fas fa-door-closed" style="font-size:40px;color:white"></i> </div2>
+                                <div><b style="font-size:20px">Closing Ceremony</b></div>
+                                <div3>
+                                    <i class="far fa-clock" style="font-size:16px;color:rgb(223,66,177)"></i><b> 1300</b>
+                                    <br /><br />
+                                    <i class="fas fa-compass" style="font-size:16px;color:rgb(223,66,177)"></i><b> Not Confirmed</b>
+                                </div3>
+                            </div>
+                            <br />     <div id="main">
+                                <div2><i class="fas fa-power-off" style="font-size:40px;color:white"></i> </div2>
+                                <div><b style="font-size:20px">End Of Hackathon</b></div>
+                                <div3>
+                                    <i class="far fa-clock" style="font-size:16px;color:rgb(223,66,177)"></i><b> 1400</b>
+                                    <br /><br />
+                                    <i class="fas fa-compass" style="font-size:16px;color:rgb(223,66,177)"></i><b> Not Confirmed</b>
+                                </div3>
+                            </div>
+                            <br />
+                        </div>
+                </div4>
+                <script>
+                    function openCity(evt, cityName) {
+                        var i, tabcontent, tablinks;
+                        tabcontent = document.getElementsByClassName("tabcontent");
+                        for (i = 0; i < tabcontent.length; i++) {
+                            tabcontent[i].style.display = "none";
+                        }
+                        tablinks = document.getElementsByClassName("tablinks");
+                        for (i = 0; i < tablinks.length; i++) {
+                            tablinks[i].className = tablinks[i].className.replace(" active", "");
+                        }
+                        document.getElementById(cityName).style.display = "block";
+                        evt.currentTarget.className += " active";
+                    }
+                </script>
+        <br><br>
+        </section>
+
+            <!-- Our Schedule Area End -->
+            <section id="map">
+                <div class="section-heading text-center wow fadeInUp section-padding-100-0" data-wow-delay="300ms">
+                    <h4>Map</h4>
+                </div>
+
+                <div align="center" contenteditable="inherit">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d3175.333843983391!2d-122.01259578472067!3d37.26350987985581!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x808e4a96742ee933%3A0xdde18e9972ad1dfb!2sWest+Valley+College%2C+14000+Fruitvale+Ave%2C+Saratoga%2C+CA+95070!3m2!1d37.263509899999995!2d-122.0104071!5e0!3m2!1sen!2sus!4v1554666965765!5m2!1sen!2sus" width="900" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+                <br />
+                <br />
+                <br />
+                <br />
+            </section>
+
+            <!-- Our Sponsor And Client Area Start -->
+            <section id="sponsors" class="our-sponsor-client-area section-padding-10">
+                <div class="container">
+                    <div class="row">
+                        <!-- Heading -->
+                        <div class="col-12">
+                          <br><br>
+                            <div class="section-heading-2 text-center wow fadeInUp" data-wow-delay="300ms">
+                                <p>Partners &amp; Sponsors</p>
+                                <h4>OFFICIAL SPONSORS</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12">
+                            <!-- Our Sponsor area -->
+                            <div class="our-sponsor-area d-flex flex-wrap">
+                                <!-- Single Sponsor -->
+                                <div class="single-sponsor wow fadeInUp" data-wow-delay="300ms">
+                                    <a href="#"><img src="img/core-img/p-1.png" alt=""></a>
+                                </div>
+                                <!-- Single Sponsor -->
+                                <div class="single-sponsor wow fadeInUp" data-wow-delay="300ms">
+                                    <a href="#"><img src="img/core-img/p-2.png" alt=""></a>
+                                </div>
+                                <!-- Single Sponsor -->
+                                <div class="single-sponsor wow fadeInUp" data-wow-delay="300ms">
+                                    <a href="#"><img src="img/core-img/p-3.png" alt=""></a>
+                                </div>
+                                <!-- Single Sponsor -->
+                                <div class="single-sponsor wow fadeInUp" data-wow-delay="300ms">
+                                    <a href="#"><img src="img/core-img/p-4.png" alt=""></a>
+                                </div>
+                                <!-- Single Sponsor -->
+                                <div class="single-sponsor wow fadeInUp" data-wow-delay="300ms">
+                                    <a href="#"><img src="img/core-img/p-5.png" alt=""></a>
+                                </div>
+                                <!-- Single Sponsor -->
+                                <div class="single-sponsor wow fadeInUp" data-wow-delay="300ms">
+                                    <a href="#"><img src="img/core-img/p-6.png" alt=""></a>
+                                </div>
+                                <!-- Single Sponsor -->
+                                <div class="single-sponsor wow fadeInUp" data-wow-delay="300ms">
+                                    <a href="#"><img src="img/core-img/p-7.png" alt=""></a>
+                                </div>
+                                <!-- Single Sponsor -->
+                                <div class="single-sponsor wow fadeInUp" data-wow-delay="300ms">
+                                    <a href="#"><img src="img/core-img/p-8.png" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Our client area (for future use for speakers of workshops and talks)-->
+
+
+                    </div>
+                </div><br><br><br>
+            </section>
+
+            <!-- Our Sponsor And Client Area End -->
+            <!-- Our Ticket Pricing Table Area Start -->
+            <section id="ticket" class="our-ticket-pricing-table-area bg-img bg-gradient-overlay section-padding-100-0 jarallax" style="background-image: url(img/bg-img/14.jpg);">
+                <div class="container">
+                    <div class="row">
+                        <!-- Heading -->
+                        <div class="col-12">
+                            <div class="section-heading text-center wow fadeInUp" data-wow-delay="300ms">
+
+                                <h4>Sign up for the hackathon</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <!-- Single Ticket Pricing Table -->
+                        <div class="col-12 col-lg-4">
+                            <div class="single-ticket-pricing-table text-center mb-100 wow fadeInUp" data-wow-delay="300ms">
+                                <h6 class="ticket-plan">Attendee</h6>
+                                <!-- Ticket Icon -->
+                                <div class="ticket-icon">
+                                    <img src="img/core-img/p1.png" alt="">
+                                </div>
+                                <br />
+                                <h6>apply to be a hacker!</h6>
+                                <br />
+                                <a href="#ticket" class="btn confer-btn w-100 mb-30">Apply<i class="zmdi zmdi-long-arrow-right"></i></a>
+                            </div>
+                        </div>
+
+                        <!-- Single Ticket Pricing Table -->
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="single-ticket-pricing-table active text-center mb-100 wow fadeInUp" data-wow-delay="300ms">
+                                <h6 class="ticket-plan">Mentor</h6>
+                                <!-- Ticket Icon -->
+                                <div class="ticket-icon">
+                                    <img src="img/core-img/p3.png" alt="">
+                                </div>
+                                <br />
+                                <h6>sign up as a mentor or volunteer!</h6>
+                                <br />
+                                <a href="#" class="btn confer-btn w-100 mb-30">Sign up<i class="zmdi zmdi-long-arrow-right"></i></a>
+                                <!-- Ticket Pricing Table Details -->
+
+                            </div>
+                        </div>
+
+                        <!-- Single Ticket Pricing Table -->
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="single-ticket-pricing-table text-center mb-100 wow fadeInUp" data-wow-delay="300ms">
+                                <h6 class="ticket-plan">Sponsor</h6>
+                                <!-- Ticket Icon -->
+                                <div class="ticket-icon">
+                                    <img src="img/core-img/p2.png" alt="">
+                                </div>
+                                <br />
+                                <h6>reach out to us if you might be interested in sponsoring!</h6>
+                                <br />
+                                <a href="#ticket" class="btn confer-btn w-100 mb-30">Reach out<i class="zmdi zmdi-long-arrow-right"></i></a>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Our Ticket Pricing Table Area End -->
+            <!-- Our Blog Area Start -->
+            <!-- Our Blog Area End -->
+            <!-- Contact Area Start -->
+            <!-- Contact Area End -->
+            <!-- Footer Area Start -->
+            <footer class="footer-area bg-img bg-overlay-2 section-padding-100-0">
+                <!-- Main Footer Area -->
+                <div class="main-footer-area">
+                    <div class="container">
+                        <div class="row">
+                            <!-- Single Footer Widget Area -->
+                            <div class="col-12 col-sm-6 col-lg-3">
+                                <div class="single-footer-widget mb-60 wow fadeInUp" data-wow-delay="300ms">
+                                    <!-- Footer Logo -->
+                                    <a href="#" class="footer-logo"><img src="img/core-img/logo.png" alt=""></a>
+
+                                    <!-- Social Info -->
+                                    <div class="social-info">
+                                        <a href="#"><i class="zmdi zmdi-facebook"></i></a>
+                                        <a href="#"><i class="zmdi zmdi-instagram"></i></a>
+                                        <a href="#"><i class="zmdi zmdi-twitter"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Single Footer Widget Area -->
+                            <div class="col-12 col-sm-6 col-lg-3">
+                                <div class="single-footer-widget mb-60 wow fadeInUp" data-wow-delay="300ms">
+                                    <!-- Widget Title -->
+                                    <h5 class="widget-title">Contact</h5>
+
+                                    <!-- Contact Area -->
+                                    <div class="footer-contact-info">
+                                        <p><i class="zmdi zmdi-email"></i> cssawvc@gmail.com</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Single Footer Widget Area -->
+                            <div class="col-12 col-sm-6 col-lg-3">
+                                <div class="single-footer-widget mb-60 wow fadeInUp" data-wow-delay="300ms">
+                                    <!-- Widget Title -->
+                                    <h5 class="widget-title">Code of Conduct</h5>
+
+                                    <!-- Contact Area -->
+                                    <div class="footer-contact-info">
+                                        <p><i class="zmdi zmdi-globe"></i>MLH Code of Conduct</p>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Copywrite Area -->
+                    <div class="container">
+                        <div class="copywrite-content">
+                            <div class="row">
+                                <!-- Copywrite Text -->
+                                <div class="col-12 col-md-6">
+                                    <div class="copywrite-text">
+                                        <p>
+
+                                            Copyright &copy;
+                                            <script>document.write(new Date().getFullYear());</script> All rights reserved
+
+                                        </p>
+                                    </div>
+                                </div>
+                                <!-- Footer Menu -->
+
+                            </div>
+                        </div>
+                    </div>
+            </footer>
+            <!-- Footer Area End -->
+            <!-- **** All JS Files ***** -->
+            <!-- jQuery 2.2.4 -->
+            <script src="js/jquery.min.js"></script>
+            <!-- Popper -->
+            <script src="js/popper.min.js"></script>
+            <!-- Bootstrap -->
+            <script src="js/bootstrap.min.js"></script>
+            <!-- All Plugins -->
+            <script src="js/confer.bundle.js"></script>
+            <!-- Active -->
+            <script src="js/default-assets/active.js"></script>
+
+</body>
+
+</html>
